@@ -1,0 +1,77 @@
+.clients-sect{
+    padding-top: 150px;
+}
+.clients__title{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #22343D;
+    text-align: center;
+}
+.clients__text{
+    max-width: 537px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #22343D;
+    margin: 0 auto;
+}
+.clients__cards{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.clients__cards__card{
+    width: 327px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    padding: 26px 26px 24px 26px;
+}
+
+.clients__cards__card__img{
+    cursor: pointer;
+}
+
+.clients__cards__card__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin: 16px 0;
+}
+.clients__cards__card__user{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    cursor: pointer;
+}
+
+.clients__cards__card__user__img{
+    cursor: pointer;
+}
+
+.clients__cards__card__user__data{
+    display: flex;
+    flex-direction: column;
+}
+.clients__cards__card__user__data__name{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #02897A;
+}
+
+.clients__cards__card__user__data__profess{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+

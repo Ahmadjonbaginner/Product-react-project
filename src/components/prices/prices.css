@@ -1,0 +1,110 @@
+.prices-sect{
+    padding-top: 118px;
+}
+
+.prices__title{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    color: #22343D;
+    text-align: center;
+}
+.prices__text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #22343D;
+    text-align: center;
+}
+
+.prices__tables{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.prices__tables__table{
+    width: 323px;
+    height: 456px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 24px 74px 32px 74px;
+    
+}
+
+.prices__tables__table__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #22343D;
+}
+
+.prices__tables__table__span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #22343D;
+    display: block;
+    margin: 8px 0 16px 0;
+}
+.prices__tables__table__price{
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 100px;
+    letter-spacing: 0.2px;
+    color: #02897A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prices__tables__table__price__logo{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #02897A;
+    display: block;
+    text-align: left;
+    margin-left: 8px;
+}
+.prices__tables__table__price__day{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1px;
+    color: #AFAFAF;
+    display: block;
+    margin-left: 8px;
+}
+
+.prices__tables__table__operator,
+.prices__tables__table__notific,
+.prices__tables__table__landing{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #22343D;
+    margin-top: 16px;
+    display: block;
+}
+.prices__tables__table__btn{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #02897A;
+    border-radius: 8px;
+    padding: 11px 19px;
+    margin-top: 38px;
+    border: none;
+}
+.prices__tables__table__btn:hover{
+    background: none;
+    color: #02897A;
+    border: 1px solid #02897A;
+}

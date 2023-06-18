@@ -1,0 +1,44 @@
+footer{
+    padding-top: 157px;
+}
+
+.footer{
+    display: flex;
+    background: #02897A;
+    border-radius: 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__left{
+    width: 510px;
+    padding-left: 51px;
+}
+
+.footer__left__title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 151.4%;
+    color: #FFFFFF;
+}
+
+.footer__left__btn{
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #02897A;
+    padding: 13px 35px 7px 33px;
+    margin-top: 76px;
+    border: none;
+    transition: 0.2s;
+}
+
+.footer__left__btn:hover{
+    background-color: #02897A;
+    color: #FFFFFF;
+    
+    cursor: pointer;
+    border: 3px solid #FFFFFF;
+}
+

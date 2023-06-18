@@ -1,0 +1,140 @@
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 19px 0;
+    background-color: #FFFFFF;
+    z-index: 10;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__icon{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.navbar__icon__link{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    color: #173A56;
+    transition: 0.3s;
+}
+.navbar__icon__link:hover{
+    transform: scale(1.1);
+}
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+.navbar__menu__item__link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+    opacity: 0.7;
+}
+.navbar__menu__item__link:hover{
+    opacity: 1;
+    font-weight: 600;
+    border-bottom: 3px solid #02897A;
+}
+.sign-in {
+    padding: 10px 22px 9px 25px;    
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #173A56;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    opacity: 1;
+    transition: 0.3s;
+}
+.sign-in:hover{
+    background-color: #BCD0E5;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.navbar__menu__btn{
+    padding: 10px 22px 9px 25px;    
+    background: #02897A;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    transition: 0.3s;
+}
+.navbar__menu__btn:hover{
+    color: #02897A;
+    background: none;
+    border: 1px solid #02897A;
+    cursor: pointer;
+}
+.navbar__menu__dark{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 105px;
+    align-items: center;
+}
+
+.hero__left{
+    max-width: 456px;
+}
+.hero__left__title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #22343D;
+}
+.hero__left__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #22343D;
+    margin: 18px 0 45px 0;
+}
+.hero__left__block{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.hero__left__block__get{
+    padding: 14px 41px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #02897A;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.hero__left__block__get:hover{
+    background: none;
+    border: 1px solid #02897A;
+    color: #02897A;
+}
+.hero__left__block__watch{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #02897A;
+    transition: 0.3s;
+}
+.hero__left__block__watch:hover{
+    transform: translateX(5px);
+    font-size: 18px;
+}
